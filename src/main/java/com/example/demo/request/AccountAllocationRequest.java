@@ -1,6 +1,5 @@
 package com.example.demo.request;
 
-import com.example.demo.entity.User;
 import lombok.*;
 
 import javax.validation.constraints.NotNull;

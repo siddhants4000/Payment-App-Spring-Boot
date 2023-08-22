@@ -6,7 +6,6 @@ import lombok.*;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDateTime;
 
-
 @Data
 @Getter
 @Setter

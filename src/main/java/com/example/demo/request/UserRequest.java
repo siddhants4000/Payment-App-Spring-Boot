@@ -1,15 +1,12 @@
 package com.example.demo.request;
 
-import com.example.demo.entity.Account;
 import com.example.demo.enums.UserStatus;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
-import org.springframework.validation.annotation.Validated;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import java.util.List;
 
 @Data
 @Getter
