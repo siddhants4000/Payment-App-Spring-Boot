@@ -1,5 +1,6 @@
 package com.example.demo.entity;
 
+import com.example.demo.enums.AccountType;
 import lombok.*;
 
 import javax.persistence.*;
@@ -24,7 +25,7 @@ public class Account {
     private String accountStatus;
 
     @Column(name = "account_type")
-    private String accountType;
+    private AccountType accountType;
 
     @Column(name = "account_balance")
     private double accountBalance;

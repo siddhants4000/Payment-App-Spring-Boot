@@ -1,5 +1,6 @@
 package com.example.demo.response;
 
+import com.example.demo.enums.AccountType;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
 
@@ -20,7 +21,7 @@ public class AccountResponse {
     private String accountStatus;
 
     @JsonProperty("account_type")
-    private String accountType;
+    private AccountType accountType;
 
     @JsonProperty("account_balance")
     private double accountBalance;

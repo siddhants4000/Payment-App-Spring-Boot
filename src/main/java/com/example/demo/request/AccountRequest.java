@@ -1,5 +1,6 @@
 package com.example.demo.request;
 
+import com.example.demo.enums.AccountType;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
@@ -18,7 +19,7 @@ public class AccountRequest {
     private String accountStatus;
 
     @NotNull
-    private String accountType;
+    private AccountType accountType;
 
     @NotNull
     private double accountBalance;
